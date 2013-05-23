@@ -1,4 +1,25 @@
 modernizer
 ==========
 
-first Joomla Extention to implement "feature detection" browser upgrade messages, based on Modernizr.js
+first Joomla Extension to implement "feature detection" browser upgrade messages, based on Modernizr.js
+
+
+At May 2013, There are many Joomla extensions around implementing some sort of browser upgrade check,
+but there are all bad according to modern ways to do that check.
+
+You shuoud not do browser detection (browser are many, too many now in the mobile era to permit this check to scale well)
+
+You should do feature detection!
+
+Yes, you should be vendor agnostic now, the important thing is that the user browser supports a feature, eg. 
+Rounded Corners, CSS3 Gradients, HTML5 Media Queries, Audio API, Hisotry API, Cache Manifest ect...
+
+This matter, not the browser vendor nowadays.
+
+Modernizer for Joomla based on the famous and awarded  javascript library Modernizr, does this check in pure javascript
+avioiding also problem with php based checks and Joomla cache enabled.
+
+Tell your users to modernize their browsers!
+
+So, install it, configure your feature needs and.... go, innovate!
+
