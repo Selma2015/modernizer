@@ -11,10 +11,10 @@ You shuoud not do browser detection (browser are many, too many now in the mobil
 
 You should do feature detection!
 
-Yes, you should be vendor agnostic now, the important thing is that the user browser supports a feature, eg. 
-Rounded Corners, CSS3 Gradients, HTML5 Media Queries, Audio API, Hisotry API, Cache Manifest ect...
+Yes, you should be vendor agnostic now: the important thing is that the user agent supports a modern feature you need in 
+your Joomla site: eg. Rounded Corners, CSS3 Gradients, HTML5 Media Queries, Audio API, Hisotry API, Cache Manifest ect...
 
-This matter, not the browser vendor nowadays.
+This matters, not the browser vendor branding and version number nowadays.
 
 Modernizer for Joomla based on the famous and awarded  javascript library Modernizr, does this check in pure javascript
 avioiding also problem with php based checks and Joomla cache enabled.
