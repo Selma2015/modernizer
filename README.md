@@ -5,7 +5,7 @@ first Joomla Extension to implement "feature detection" browser upgrade messages
 
 
 At May 2013, There are many Joomla extensions around implementing some sort of browser upgrade check,
-no one is doing it in the right way suggested by html5 experts reccomandations
+but no one is doing it in the right way suggested by html5 experts reccomandations
 
 You shuoud **not do browser detection** (browser are many, too many now in the mobile era to permit this check to scale well)
 
