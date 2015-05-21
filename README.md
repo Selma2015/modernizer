@@ -1,4 +1,4 @@
-modernizer
+just trying to play around with fork modernizer
 ==========
 
 first Joomla Extension to implement "feature detection" browser upgrade messages, based on Modernizr.js
